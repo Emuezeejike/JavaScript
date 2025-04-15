@@ -10,21 +10,21 @@ let Operator = prompt('Enter any of the four Basic orperators (*,+,/,-)');
 let number2 = prompt('Enter Second number');
 
 // The result should be stored in a storage location called Result
-let Result = undefined;
+let Result;
 
 // condition statement to look for the right operator to use
-if (Operator = '*') {
+if (Operator == '*') {
     Result = number1 * number2;
-    alert('The Result is:' + '' + Result)
-} else if (Operator = '+') {
+    alert('The Result is:' + " " + Result);
+} else if (Operator == '+') {
     Result = number1 + number2;
-    alert('The Result is:' + '' + Result)
-} else if (Operator = '-') {
+    alert('The Result is:' + " " + Result);
+} else if (Operator == '-') {
     Result = number1 - number2;
-    alert('The Result is:' + '' + Result)
-} else if (Operator = '/') {
-    Result = number1 / number2;
-    alert('The Result is:' + '' + Result)
+    alert('The Result is:' + " " + Result);
+} else if (Operator == '/') {
+    Result = number1 / number2; 
+    alert('The Result is:' + " " + Result);
 } else {
     alert('The equation is wrong');
 }

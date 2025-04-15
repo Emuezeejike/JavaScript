@@ -5,5 +5,5 @@ let number = prompt('Enter a number');
 let Result ;
 for (let i = 1; i <= 12; i++) {
     Result = number * i
-    console.log(Result);
+    console.log(number + "*" + i + "=" + Result);
 }
