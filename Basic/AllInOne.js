@@ -1,4 +1,4 @@
-// Though this file is not part of the assignment but I decided to try out something else but putting all the codes in one using FUNCTIONS.
+// Though this file is not part of the assignment but I decided to try out something else by putting all the codes in one using FUNCTIONS and making it interactive.
 
 let name = prompt('Kindly enter you name');
 alert('Hello' + " " + name + ", " + 'will you like to see what i can do?' + " " + 'Y or N' );
@@ -44,8 +44,10 @@ function EvenOrOddChecker() {
 
 function BasicCalculator() {
     let number1 = prompt('Enter First number'); 
+    number1 = parseFloat(number1);
     let Operator = prompt('Enter any of the four Basic orperators (*,+,/,-)');
     let number2 = prompt('Enter Second number');
+    number2 = parseFloat(number2);
     let Result;
     if (Operator == '*') {
         Result = number1 * number2;

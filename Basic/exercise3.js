@@ -10,5 +10,5 @@ let age = prompt('Enter your Age');
 if (age >= 18) {
     alert('Eligible');
 } else {
-    alert('Not Eligible');
+    alert('You are Not Eligible to vote yet');
 }

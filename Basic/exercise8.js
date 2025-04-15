@@ -1,3 +1,6 @@
+// Exercise 8: FizzBuzz
+// combining the concepts of exercise 1  and 2
+
 let i;
 for (let i = 1; i <= 15; i++) {
     if (i % 3 == 0) {
@@ -9,5 +12,4 @@ for (let i = 1; i <= 15; i++) {
     } else {
         console.log(i);
     }
-    
 }
