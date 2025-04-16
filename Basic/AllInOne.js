@@ -5,14 +5,15 @@ alert('Hello' + " " + name + ", " + 'will you like to see what i can do?' + " " 
 let choice = prompt('y or n');
 if (choice == 'y') {
     alert('Here are the things i can do \n1. Even or Odd Checker \n2. Basic Calculator\n3. Voting Eligibility Checker\n4. Print Numbers From 1 - 10\n5. Multiplication Table Generator\n6. Grade Checker\n7. Guess the Number Game\n8. FizzBuzz Challenge\nSelect a number to play!!!');
+    Games();
 } else if (choice == 'n') {
     alert('Thank you for TRYING, enjoy the rest of your day!!!');
 } else {
-    alert('Wrong selection, please press y or n');
-    prompt('');
+    alert('Wrong selection!!!');
 }
 
-let GameChoice = prompt('Select the number of the game you wished to play')
+function Games() {
+    let GameChoice = prompt('Select the number of the game you wished to play')
     if (GameChoice == 1) {
         EvenOrOddChecker();
     } else if (GameChoice == 2) {
@@ -33,6 +34,7 @@ let GameChoice = prompt('Select the number of the game you wished to play')
         alert('Wrong Selection');
     }
 
+}
 function EvenOrOddChecker() {
     let number = prompt('Enter a number');
     if (number % 2 == 0) {
@@ -70,9 +72,9 @@ function VotingEligibilityChecker() {
     let name = prompt('Please Enter your Name');
     let age = prompt('Enter your Age');
     if (age >= 18) {
-        alert('Eligible');
+        alert('You are Eligible to vote');
     } else {
-        alert('Not Eligible');
+        alert('You are Not Eligible to vote yet');
     }
 }
 

@@ -7,8 +7,8 @@ let name = prompt('Please Enter your Name');
 let age = prompt('Enter your Age');
 
 // check if the user is 18 and avove or not. if 18 and above, alert "Eligible" while "Not eligible" if user is 17 and below
-if (age >= 18) {
-    alert('Eligible');
+if (age >= 18) { 
+    alert('You are Eligible to vote');
 } else {
     alert('You are Not Eligible to vote yet');
 }
